@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="100dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1E1E1D">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="70sp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/todo"
+            android:cropToPadding="true"
+            android:drawingCacheQuality="auto"
+            app:srcCompat="@android:drawable/sym_action_call" />
+
+        <TextView
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center|center_horizontal"
+            android:text="@string/_0328088002"
+            android:textColor="#DFDFD9"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="78dp"
+            android:layout_height="73dp"
+            android:layout_gravity="end"
+            android:contentDescription="@string/todo"
+            android:scrollbars="horizontal"
+            app:srcCompat="@android:drawable/stat_notify_missed_call" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="128dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:gravity="bottom|end"
+            android:text="@string/_20_hours_ago"
+            android:textColor="#F3F3EB"
+            android:textSize="20sp" />
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
